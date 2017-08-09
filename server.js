@@ -24,7 +24,7 @@ app.post('/contact',urlencodedParser, function (req, res) {
   });
   //Mail options
   var mailOptions = {
-    from: '4193sjm@gmail.com',
+    from: 'codingninja93@gmail.com',
     to: req.body.email,
     subject: 'Sending Email using Node.js',
     text: req.body.message
